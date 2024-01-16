@@ -57,4 +57,8 @@ Public Class Form1
             PictureBox1.Load(fields(5))
         End If
     End Sub
+
+    Private Sub OpenFileDialog1_FileOk_1(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles OpenFileDialog1.FileOk
+        PictureBox1.Load(OpenFileDialog1.FileName)
+    End Sub
 End Class
