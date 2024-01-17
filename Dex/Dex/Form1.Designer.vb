@@ -38,6 +38,10 @@ Partial Class Form1
         Me.SaveToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NewToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
+        Me.FirstB = New System.Windows.Forms.Button()
+        Me.PrevB = New System.Windows.Forms.Button()
+        Me.NextB = New System.Windows.Forms.Button()
+        Me.LastB = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -90,7 +94,7 @@ Partial Class Form1
         'PictureBox1
         '
         Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox1.Location = New System.Drawing.Point(454, 112)
+        Me.PictureBox1.Location = New System.Drawing.Point(390, 95)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(286, 172)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -170,11 +174,51 @@ Partial Class Form1
         '
         Me.OpenFileDialog1.FileName = "OpenFileDialog1"
         '
+        'FirstB
+        '
+        Me.FirstB.Location = New System.Drawing.Point(204, 362)
+        Me.FirstB.Name = "FirstB"
+        Me.FirstB.Size = New System.Drawing.Size(94, 29)
+        Me.FirstB.TabIndex = 12
+        Me.FirstB.Text = "First"
+        Me.FirstB.UseVisualStyleBackColor = True
+        '
+        'PrevB
+        '
+        Me.PrevB.Location = New System.Drawing.Point(303, 362)
+        Me.PrevB.Name = "PrevB"
+        Me.PrevB.Size = New System.Drawing.Size(94, 29)
+        Me.PrevB.TabIndex = 13
+        Me.PrevB.Text = "Prev"
+        Me.PrevB.UseVisualStyleBackColor = True
+        '
+        'NextB
+        '
+        Me.NextB.Location = New System.Drawing.Point(403, 362)
+        Me.NextB.Name = "NextB"
+        Me.NextB.Size = New System.Drawing.Size(94, 29)
+        Me.NextB.TabIndex = 14
+        Me.NextB.Text = "Next"
+        Me.NextB.UseVisualStyleBackColor = True
+        '
+        'LastB
+        '
+        Me.LastB.Location = New System.Drawing.Point(503, 362)
+        Me.LastB.Name = "LastB"
+        Me.LastB.Size = New System.Drawing.Size(94, 29)
+        Me.LastB.TabIndex = 15
+        Me.LastB.Text = "Last"
+        Me.LastB.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.LastB)
+        Me.Controls.Add(Me.NextB)
+        Me.Controls.Add(Me.PrevB)
+        Me.Controls.Add(Me.FirstB)
         Me.Controls.Add(Me.F4)
         Me.Controls.Add(Me.F3)
         Me.Controls.Add(Me.F5)
@@ -213,4 +257,8 @@ Partial Class Form1
     Friend WithEvents CarsToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SaveToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents NewToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents FirstB As Button
+    Friend WithEvents PrevB As Button
+    Friend WithEvents NextB As Button
+    Friend WithEvents LastB As Button
 End Class
