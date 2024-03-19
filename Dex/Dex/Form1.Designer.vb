@@ -22,243 +22,239 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.F1 = New System.Windows.Forms.TextBox()
-        Me.F2 = New System.Windows.Forms.TextBox()
-        Me.F5 = New System.Windows.Forms.TextBox()
-        Me.F3 = New System.Windows.Forms.TextBox()
-        Me.F4 = New System.Windows.Forms.TextBox()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
-        Me.CarsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SaveToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.FIleToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NewToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SaveToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Field1 = New System.Windows.Forms.TextBox()
+        Me.Field2 = New System.Windows.Forms.TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Field3 = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Field4 = New System.Windows.Forms.TextBox()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Field5 = New System.Windows.Forms.TextBox()
+        Me.Label5 = New System.Windows.Forms.Label()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
-        Me.FirstB = New System.Windows.Forms.Button()
-        Me.PrevB = New System.Windows.Forms.Button()
-        Me.NextB = New System.Windows.Forms.Button()
-        Me.LastB = New System.Windows.Forms.Button()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.FirstButton = New System.Windows.Forms.Button()
+        Me.PrevButton = New System.Windows.Forms.Button()
+        Me.NextButton = New System.Windows.Forms.Button()
+        Me.LastButton = New System.Windows.Forms.Button()
         Me.MenuStrip1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(35, 95)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(49, 20)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Name"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(35, 141)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(80, 20)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Top Speed"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(35, 186)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(54, 20)
-        Me.Label3.TabIndex = 2
-        Me.Label3.Text = "Engine"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(35, 233)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(39, 20)
-        Me.Label4.TabIndex = 3
-        Me.Label4.Text = "0-60"
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(35, 275)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(41, 20)
-        Me.Label5.TabIndex = 4
-        Me.Label5.Text = "Price"
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox1.Location = New System.Drawing.Point(390, 95)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(286, 172)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 5
-        Me.PictureBox1.TabStop = False
-        '
-        'F1
-        '
-        Me.F1.Location = New System.Drawing.Point(159, 95)
-        Me.F1.Multiline = True
-        Me.F1.Name = "F1"
-        Me.F1.Size = New System.Drawing.Size(125, 27)
-        Me.F1.TabIndex = 6
-        '
-        'F2
-        '
-        Me.F2.Location = New System.Drawing.Point(159, 141)
-        Me.F2.Multiline = True
-        Me.F2.Name = "F2"
-        Me.F2.Size = New System.Drawing.Size(125, 27)
-        Me.F2.TabIndex = 7
-        '
-        'F5
-        '
-        Me.F5.Location = New System.Drawing.Point(159, 275)
-        Me.F5.Multiline = True
-        Me.F5.Name = "F5"
-        Me.F5.Size = New System.Drawing.Size(125, 27)
-        Me.F5.TabIndex = 8
-        '
-        'F3
-        '
-        Me.F3.Location = New System.Drawing.Point(159, 186)
-        Me.F3.Multiline = True
-        Me.F3.Name = "F3"
-        Me.F3.Size = New System.Drawing.Size(125, 27)
-        Me.F3.TabIndex = 9
-        '
-        'F4
-        '
-        Me.F4.Location = New System.Drawing.Point(159, 233)
-        Me.F4.Multiline = True
-        Me.F4.Name = "F4"
-        Me.F4.Size = New System.Drawing.Size(125, 27)
-        Me.F4.TabIndex = 10
         '
         'MenuStrip1
         '
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CarsToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FIleToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(800, 28)
-        Me.MenuStrip1.TabIndex = 11
+        Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
-        'CarsToolStripMenuItem
+        'FIleToolStripMenuItem
         '
-        Me.CarsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SaveToolStripMenuItem, Me.NewToolStripMenuItem})
-        Me.CarsToolStripMenuItem.Name = "CarsToolStripMenuItem"
-        Me.CarsToolStripMenuItem.Size = New System.Drawing.Size(51, 24)
-        Me.CarsToolStripMenuItem.Text = "Cars"
-        '
-        'SaveToolStripMenuItem
-        '
-        Me.SaveToolStripMenuItem.Name = "SaveToolStripMenuItem"
-        Me.SaveToolStripMenuItem.Size = New System.Drawing.Size(123, 26)
-        Me.SaveToolStripMenuItem.Text = "Save"
+        Me.FIleToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewToolStripMenuItem, Me.SaveToolStripMenuItem})
+        Me.FIleToolStripMenuItem.Name = "FIleToolStripMenuItem"
+        Me.FIleToolStripMenuItem.Size = New System.Drawing.Size(46, 24)
+        Me.FIleToolStripMenuItem.Text = "File"
         '
         'NewToolStripMenuItem
         '
         Me.NewToolStripMenuItem.Name = "NewToolStripMenuItem"
-        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(123, 26)
+        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.NewToolStripMenuItem.Text = "New"
+        '
+        'SaveToolStripMenuItem
+        '
+        Me.SaveToolStripMenuItem.Name = "SaveToolStripMenuItem"
+        Me.SaveToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.SaveToolStripMenuItem.Text = "Save"
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PictureBox1.Location = New System.Drawing.Point(132, 42)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(186, 134)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 1
+        Me.PictureBox1.TabStop = False
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(23, 185)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(49, 20)
+        Me.Label1.TabIndex = 2
+        Me.Label1.Text = "Name"
+        '
+        'Field1
+        '
+        Me.Field1.Location = New System.Drawing.Point(132, 182)
+        Me.Field1.Name = "Field1"
+        Me.Field1.Size = New System.Drawing.Size(286, 27)
+        Me.Field1.TabIndex = 3
+        '
+        'Field2
+        '
+        Me.Field2.Location = New System.Drawing.Point(132, 215)
+        Me.Field2.Name = "Field2"
+        Me.Field2.Size = New System.Drawing.Size(286, 27)
+        Me.Field2.TabIndex = 5
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(23, 218)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(80, 20)
+        Me.Label2.TabIndex = 4
+        Me.Label2.Text = "Top Speed"
+        '
+        'Field3
+        '
+        Me.Field3.Location = New System.Drawing.Point(132, 248)
+        Me.Field3.Name = "Field3"
+        Me.Field3.Size = New System.Drawing.Size(286, 27)
+        Me.Field3.TabIndex = 7
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(23, 251)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(54, 20)
+        Me.Label3.TabIndex = 6
+        Me.Label3.Text = "Engine"
+        '
+        'Field4
+        '
+        Me.Field4.Location = New System.Drawing.Point(132, 281)
+        Me.Field4.Name = "Field4"
+        Me.Field4.Size = New System.Drawing.Size(286, 27)
+        Me.Field4.TabIndex = 9
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(23, 284)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(39, 20)
+        Me.Label4.TabIndex = 8
+        Me.Label4.Text = "0-60"
+        '
+        'Field5
+        '
+        Me.Field5.Location = New System.Drawing.Point(132, 314)
+        Me.Field5.Name = "Field5"
+        Me.Field5.Size = New System.Drawing.Size(286, 27)
+        Me.Field5.TabIndex = 11
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(23, 317)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(41, 20)
+        Me.Label5.TabIndex = 10
+        Me.Label5.Text = "Price"
         '
         'OpenFileDialog1
         '
         Me.OpenFileDialog1.FileName = "OpenFileDialog1"
         '
-        'FirstB
+        'FirstButton
         '
-        Me.FirstB.Location = New System.Drawing.Point(204, 362)
-        Me.FirstB.Name = "FirstB"
-        Me.FirstB.Size = New System.Drawing.Size(94, 29)
-        Me.FirstB.TabIndex = 12
-        Me.FirstB.Text = "First"
-        Me.FirstB.UseVisualStyleBackColor = True
+        Me.FirstButton.Location = New System.Drawing.Point(324, 42)
+        Me.FirstButton.Name = "FirstButton"
+        Me.FirstButton.Size = New System.Drawing.Size(94, 29)
+        Me.FirstButton.TabIndex = 12
+        Me.FirstButton.Text = "First"
+        Me.FirstButton.UseVisualStyleBackColor = True
         '
-        'PrevB
+        'PrevButton
         '
-        Me.PrevB.Location = New System.Drawing.Point(303, 362)
-        Me.PrevB.Name = "PrevB"
-        Me.PrevB.Size = New System.Drawing.Size(94, 29)
-        Me.PrevB.TabIndex = 13
-        Me.PrevB.Text = "Prev"
-        Me.PrevB.UseVisualStyleBackColor = True
+        Me.PrevButton.Location = New System.Drawing.Point(324, 112)
+        Me.PrevButton.Name = "PrevButton"
+        Me.PrevButton.Size = New System.Drawing.Size(94, 29)
+        Me.PrevButton.TabIndex = 13
+        Me.PrevButton.Text = "Prev"
+        Me.PrevButton.UseVisualStyleBackColor = True
         '
-        'NextB
+        'NextButton
         '
-        Me.NextB.Location = New System.Drawing.Point(403, 362)
-        Me.NextB.Name = "NextB"
-        Me.NextB.Size = New System.Drawing.Size(94, 29)
-        Me.NextB.TabIndex = 14
-        Me.NextB.Text = "Next"
-        Me.NextB.UseVisualStyleBackColor = True
+        Me.NextButton.Location = New System.Drawing.Point(324, 77)
+        Me.NextButton.Name = "NextButton"
+        Me.NextButton.Size = New System.Drawing.Size(94, 29)
+        Me.NextButton.TabIndex = 14
+        Me.NextButton.Text = "Next"
+        Me.NextButton.UseVisualStyleBackColor = True
         '
-        'LastB
+        'LastButton
         '
-        Me.LastB.Location = New System.Drawing.Point(503, 362)
-        Me.LastB.Name = "LastB"
-        Me.LastB.Size = New System.Drawing.Size(94, 29)
-        Me.LastB.TabIndex = 15
-        Me.LastB.Text = "Last"
-        Me.LastB.UseVisualStyleBackColor = True
+        Me.LastButton.Location = New System.Drawing.Point(324, 147)
+        Me.LastButton.Name = "LastButton"
+        Me.LastButton.Size = New System.Drawing.Size(94, 29)
+        Me.LastButton.TabIndex = 15
+        Me.LastButton.Text = "Last"
+        Me.LastButton.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.LastB)
-        Me.Controls.Add(Me.NextB)
-        Me.Controls.Add(Me.PrevB)
-        Me.Controls.Add(Me.FirstB)
-        Me.Controls.Add(Me.F4)
-        Me.Controls.Add(Me.F3)
-        Me.Controls.Add(Me.F5)
-        Me.Controls.Add(Me.F2)
-        Me.Controls.Add(Me.F1)
-        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.LastButton)
+        Me.Controls.Add(Me.NextButton)
+        Me.Controls.Add(Me.PrevButton)
+        Me.Controls.Add(Me.FirstButton)
+        Me.Controls.Add(Me.Field5)
         Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.Field4)
         Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Field3)
         Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Field2)
         Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Field1)
         Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Form1"
         Me.Text = "Form1"
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents F1 As TextBox
-    Friend WithEvents F2 As TextBox
-    Friend WithEvents F5 As TextBox
-    Friend WithEvents F3 As TextBox
-    Friend WithEvents F4 As TextBox
     Friend WithEvents MenuStrip1 As MenuStrip
-    Friend WithEvents CarsToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents SaveToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents FIleToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents NewToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents FirstB As Button
-    Friend WithEvents PrevB As Button
-    Friend WithEvents NextB As Button
-    Friend WithEvents LastB As Button
+    Friend WithEvents SaveToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Field1 As TextBox
+    Friend WithEvents Field2 As TextBox
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Field3 As TextBox
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Field4 As TextBox
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Field5 As TextBox
+    Friend WithEvents Label5 As Label
+    Friend WithEvents OpenFileDialog1 As OpenFileDialog
+    Friend WithEvents FirstButton As Button
+    Friend WithEvents PrevButton As Button
+    Friend WithEvents NextButton As Button
+    Friend WithEvents LastButton As Button
 End Class
