@@ -73,7 +73,21 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+<<<<<<< HEAD
         Friend ReadOnly Property batteryrecharger1() As System.Drawing.Bitmap
+=======
+        Friend ReadOnly Property chevrolet_logo_on_transparent_background_free_vector() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("chevrolet-logo-on-transparent-background-free-vector", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property corvette() As System.Drawing.Bitmap
+>>>>>>> main
             Get
                 Dim obj As Object = ResourceManager.GetObject("batteryrecharger1", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)

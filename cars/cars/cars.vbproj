@@ -149,5 +149,8 @@
   <ItemGroup>
     <None Include="Resources\car jack.jfif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chevrolet-logo-on-transparent-background-free-vector.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
