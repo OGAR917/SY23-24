@@ -23,22 +23,33 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox1
         '
-        Me.PictureBox1.Location = New System.Drawing.Point(105, 151)
+        Me.PictureBox1.Location = New System.Drawing.Point(973, 41)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(100, 50)
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(935, 10)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(138, 25)
+        Me.Button1.TabIndex = 1
+        Me.Button1.Text = "Car Mechanic Tools"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1085, 579)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "Form1"
         Me.Text = "Form1"
@@ -48,4 +59,5 @@ Partial Class Form1
     End Sub
 
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Button1 As Button
 End Class
