@@ -63,9 +63,15 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+<<<<<<< HEAD
         Friend ReadOnly Property batteryrecharger() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("batteryrecharger", resourceCulture)
+=======
+        Friend ReadOnly Property camaro() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("camaro", resourceCulture)
+>>>>>>> main
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -73,9 +79,15 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+<<<<<<< HEAD
         Friend ReadOnly Property batteryrecharger1() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("batteryrecharger1", resourceCulture)
+=======
+        Friend ReadOnly Property corvette() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("corvette", resourceCulture)
+>>>>>>> main
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -83,6 +95,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+<<<<<<< HEAD
         Friend ReadOnly Property car_jack() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("car jack", resourceCulture)
@@ -126,6 +139,11 @@ Namespace My.Resources
         Friend ReadOnly Property wrenchs() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("wrenchs", resourceCulture)
+=======
+        Friend ReadOnly Property hellcat() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("hellcat", resourceCulture)
+>>>>>>> main
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

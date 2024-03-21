@@ -129,6 +129,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <None Include="Resources\batteryrecharger.jfif" />
   </ItemGroup>
   <ItemGroup>
@@ -148,6 +149,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\car jack.jfif" />
+=======
+    <None Include="Resources\corvette.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camaro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hellcat.jpg" />
+>>>>>>> main
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
