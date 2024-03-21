@@ -128,5 +128,8 @@
   <ItemGroup>
     <None Include="Resources\hellcat.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chevrolet-logo-on-transparent-background-free-vector.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
