@@ -93,9 +93,39 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property corvette() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("corvette", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property hellcat() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("hellcat", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property impact() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("impact", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property mustang() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("mustang", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

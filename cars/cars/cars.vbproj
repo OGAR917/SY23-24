@@ -158,5 +158,14 @@
   <ItemGroup>
     <None Include="Resources\car jack.jfif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\corvette.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hellcat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mustang.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
