@@ -225,11 +225,12 @@ Partial Class Form2
         '
         'TextBox1
         '
-        Me.TextBox1.Font = New System.Drawing.Font("Stencil", 28.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(152, 30)
+        Me.TextBox1.Font = New System.Drawing.Font("Stencil", 30.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.Location = New System.Drawing.Point(95, 30)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(834, 63)
+        Me.TextBox1.ReadOnly = True
+        Me.TextBox1.Size = New System.Drawing.Size(901, 63)
         Me.TextBox1.TabIndex = 18
         Me.TextBox1.Text = "Welcome to the Mechanic Shop."
         '
