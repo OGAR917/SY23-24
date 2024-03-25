@@ -29,6 +29,10 @@ Partial Class inventory
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -48,7 +52,7 @@ Partial Class inventory
         'PictureBox4
         '
         Me.PictureBox4.Image = Global.Cars.My.Resources.Resources.mustang
-        Me.PictureBox4.Location = New System.Drawing.Point(715, 132)
+        Me.PictureBox4.Location = New System.Drawing.Point(693, 132)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(222, 119)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -58,7 +62,7 @@ Partial Class inventory
         'PictureBox3
         '
         Me.PictureBox3.Image = Global.Cars.My.Resources.Resources.hellcat
-        Me.PictureBox3.Location = New System.Drawing.Point(441, 132)
+        Me.PictureBox3.Location = New System.Drawing.Point(442, 132)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(222, 119)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -68,7 +72,7 @@ Partial Class inventory
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.Cars.My.Resources.Resources.corvette
-        Me.PictureBox2.Location = New System.Drawing.Point(167, 132)
+        Me.PictureBox2.Location = New System.Drawing.Point(190, 132)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(222, 119)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -89,7 +93,7 @@ Partial Class inventory
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Stencil", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(199, 254)
+        Me.Label2.Location = New System.Drawing.Point(223, 254)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(156, 27)
         Me.Label2.TabIndex = 5
@@ -98,12 +102,52 @@ Partial Class inventory
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Stencil", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(204, 284)
+        Me.Button1.Location = New System.Drawing.Point(225, 284)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(151, 26)
+        Me.Button1.Size = New System.Drawing.Size(153, 26)
         Me.Button1.TabIndex = 6
         Me.Button1.Text = "View Details"
         Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Stencil", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(500, 254)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(107, 27)
+        Me.Label3.TabIndex = 7
+        Me.Label3.Text = "Hellcat"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Stencil", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(720, 254)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(169, 27)
+        Me.Label4.TabIndex = 8
+        Me.Label4.Text = "Shelby GT500"
+        '
+        'Button2
+        '
+        Me.Button2.Font = New System.Drawing.Font("Stencil", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Location = New System.Drawing.Point(476, 284)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(153, 26)
+        Me.Button2.TabIndex = 9
+        Me.Button2.Text = "View Details"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.Font = New System.Drawing.Font("Stencil", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.Location = New System.Drawing.Point(725, 284)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(153, 26)
+        Me.Button3.TabIndex = 10
+        Me.Button3.Text = "View Details"
+        Me.Button3.UseVisualStyleBackColor = True
         '
         'inventory
         '
@@ -111,6 +155,10 @@ Partial Class inventory
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1105, 550)
+        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.PictureBox4)
@@ -136,4 +184,8 @@ Partial Class inventory
     Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents Label2 As Label
     Friend WithEvents Button1 As Button
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button3 As Button
 End Class
