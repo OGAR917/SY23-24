@@ -136,11 +136,17 @@
     <EmbeddedResource Include="Checkout.resx">
       <DependentUpon>Checkout.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="corvette.resx">
+      <DependentUpon>corvette.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hellcat.resx">
+      <DependentUpon>hellcat.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="inventory.resx">
       <DependentUpon>inventory.vb</DependentUpon>
@@ -150,6 +156,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="shelby.resx">
+      <DependentUpon>shelby.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
