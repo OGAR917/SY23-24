@@ -73,6 +73,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="corvette.Designer.vb">
+      <DependentUpon>corvette.vb</DependentUpon>
+    </Compile>
+    <Compile Include="corvette.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +90,12 @@
       <DependentUpon>Form2.vb</DependentUpon>
     </Compile>
     <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hellcat.Designer.vb">
+      <DependentUpon>hellcat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="hellcat.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="inventory.Designer.vb">
@@ -106,6 +118,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="shelby.Designer.vb">
+      <DependentUpon>shelby.vb</DependentUpon>
+    </Compile>
+    <Compile Include="shelby.vb">
+      <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
