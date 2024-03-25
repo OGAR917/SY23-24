@@ -27,6 +27,8 @@ Partial Class inventory
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -83,12 +85,34 @@ Partial Class inventory
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Stencil", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(199, 254)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(156, 27)
+        Me.Label2.TabIndex = 5
+        Me.Label2.Text = "Corvette C8"
+        '
+        'Button1
+        '
+        Me.Button1.Font = New System.Drawing.Font("Stencil", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(204, 284)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(151, 26)
+        Me.Button1.TabIndex = 6
+        Me.Button1.Text = "View Details"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'inventory
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1105, 550)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.PictureBox2)
@@ -110,4 +134,6 @@ Partial Class inventory
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents PictureBox4 As PictureBox
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Button1 As Button
 End Class
