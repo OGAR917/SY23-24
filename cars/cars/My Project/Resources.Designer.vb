@@ -103,6 +103,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property gaspump() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("gaspump", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property hellcat() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("hellcat", resourceCulture)
@@ -116,6 +126,16 @@ Namespace My.Resources
         Friend ReadOnly Property impact() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("impact", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property miles() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("miles", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

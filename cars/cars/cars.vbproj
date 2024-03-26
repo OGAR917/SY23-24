@@ -203,5 +203,11 @@
   <ItemGroup>
     <None Include="Resources\mustang.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gaspump.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miles.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
