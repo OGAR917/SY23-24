@@ -31,8 +31,10 @@ Partial Class corvette
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Label6 = New System.Windows.Forms.Label()
+        Me.engine = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.msrpL = New System.Windows.Forms.Label()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -129,15 +131,15 @@ Partial Class corvette
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
-        'Label6
+        'engine
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Stencil", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(426, 437)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(74, 21)
-        Me.Label6.TabIndex = 9
-        Me.Label6.Text = "Engine"
+        Me.engine.AutoSize = True
+        Me.engine.Font = New System.Drawing.Font("Stencil", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.engine.Location = New System.Drawing.Point(426, 437)
+        Me.engine.Name = "engine"
+        Me.engine.Size = New System.Drawing.Size(74, 21)
+        Me.engine.TabIndex = 9
+        Me.engine.Text = "Engine"
         '
         'TextBox1
         '
@@ -152,14 +154,35 @@ Partial Class corvette
         Me.TextBox1.TabIndex = 10
         Me.TextBox1.Text = "5.5L V8 DI HIGH-OUTPUT FLAT PLANE CRANK 8600 RPM REDLINE ENGINE"
         '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Stencil", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(232, 310)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(100, 33)
+        Me.Label7.TabIndex = 11
+        Me.Label7.Text = "MSRP:"
+        '
+        'msrpL
+        '
+        Me.msrpL.AutoSize = True
+        Me.msrpL.Font = New System.Drawing.Font("Stencil", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.msrpL.Location = New System.Drawing.Point(338, 310)
+        Me.msrpL.Name = "msrpL"
+        Me.msrpL.Size = New System.Drawing.Size(0, 33)
+        Me.msrpL.TabIndex = 12
+        '
         'corvette
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1105, 550)
+        Me.Controls.Add(Me.msrpL)
+        Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.engine)
         Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
@@ -189,6 +212,8 @@ Partial Class corvette
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents PictureBox4 As PictureBox
-    Friend WithEvents Label6 As Label
+    Friend WithEvents engine As Label
     Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Label7 As Label
+    Friend WithEvents msrpL As Label
 End Class
