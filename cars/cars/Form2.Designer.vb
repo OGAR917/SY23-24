@@ -47,6 +47,16 @@ Partial Class Form2
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.Button7 = New System.Windows.Forms.Button()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.Label14 = New System.Windows.Forms.Label()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -236,7 +246,7 @@ Partial Class Form2
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(71, 306)
+        Me.Button1.Location = New System.Drawing.Point(70, 306)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 19
@@ -288,12 +298,106 @@ Partial Class Form2
         Me.Button6.Text = "Buy"
         Me.Button6.UseVisualStyleBackColor = True
         '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(56, 335)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.ReadOnly = True
+        Me.TextBox2.Size = New System.Drawing.Size(100, 22)
+        Me.TextBox2.TabIndex = 25
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Location = New System.Drawing.Point(232, 335)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.ReadOnly = True
+        Me.TextBox3.Size = New System.Drawing.Size(100, 22)
+        Me.TextBox3.TabIndex = 26
+        '
+        'TextBox4
+        '
+        Me.TextBox4.Location = New System.Drawing.Point(409, 335)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.ReadOnly = True
+        Me.TextBox4.Size = New System.Drawing.Size(100, 22)
+        Me.TextBox4.TabIndex = 27
+        '
+        'TextBox5
+        '
+        Me.TextBox5.Location = New System.Drawing.Point(587, 335)
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.ReadOnly = True
+        Me.TextBox5.Size = New System.Drawing.Size(100, 22)
+        Me.TextBox5.TabIndex = 28
+        '
+        'TextBox6
+        '
+        Me.TextBox6.Location = New System.Drawing.Point(769, 335)
+        Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.ReadOnly = True
+        Me.TextBox6.Size = New System.Drawing.Size(100, 22)
+        Me.TextBox6.TabIndex = 29
+        '
+        'TextBox7
+        '
+        Me.TextBox7.Location = New System.Drawing.Point(939, 335)
+        Me.TextBox7.Name = "TextBox7"
+        Me.TextBox7.ReadOnly = True
+        Me.TextBox7.Size = New System.Drawing.Size(100, 22)
+        Me.TextBox7.TabIndex = 30
+        '
+        'Button7
+        '
+        Me.Button7.Location = New System.Drawing.Point(456, 387)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(189, 43)
+        Me.Button7.TabIndex = 31
+        Me.Button7.Text = "Checkout"
+        Me.Button7.UseVisualStyleBackColor = True
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Location = New System.Drawing.Point(529, 433)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(41, 16)
+        Me.Label13.TabIndex = 32
+        Me.Label13.Text = "Total:"
+        '
+        'TextBox8
+        '
+        Me.TextBox8.Location = New System.Drawing.Point(500, 452)
+        Me.TextBox8.Name = "TextBox8"
+        Me.TextBox8.ReadOnly = True
+        Me.TextBox8.Size = New System.Drawing.Size(100, 22)
+        Me.TextBox8.TabIndex = 33
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Location = New System.Drawing.Point(456, 477)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(189, 16)
+        Me.Label14.TabIndex = 34
+        Me.Label14.Text = "Thank You For Your Purchase!"
+        Me.Label14.Visible = False
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1105, 550)
+        Me.Controls.Add(Me.Label14)
+        Me.Controls.Add(Me.TextBox8)
+        Me.Controls.Add(Me.Label13)
+        Me.Controls.Add(Me.Button7)
+        Me.Controls.Add(Me.TextBox7)
+        Me.Controls.Add(Me.TextBox6)
+        Me.Controls.Add(Me.TextBox5)
+        Me.Controls.Add(Me.TextBox4)
+        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
@@ -357,4 +461,14 @@ Partial Class Form2
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Button6 As Button
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents TextBox7 As TextBox
+    Friend WithEvents Button7 As Button
+    Friend WithEvents Label13 As Label
+    Friend WithEvents TextBox8 As TextBox
+    Friend WithEvents Label14 As Label
 End Class
