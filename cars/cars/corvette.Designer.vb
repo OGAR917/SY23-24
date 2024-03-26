@@ -25,11 +25,15 @@ Partial Class corvette
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -39,7 +43,7 @@ Partial Class corvette
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Stencil", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(142, 310)
+        Me.Label1.Location = New System.Drawing.Point(14, 310)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(206, 33)
         Me.Label1.TabIndex = 1
@@ -49,7 +53,7 @@ Partial Class corvette
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Stencil", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(27, 449)
+        Me.Label2.Location = New System.Drawing.Point(28, 437)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(139, 21)
         Me.Label2.TabIndex = 3
@@ -59,16 +63,46 @@ Partial Class corvette
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(15, 470)
+        Me.Label3.Location = New System.Drawing.Point(16, 458)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(163, 24)
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "12 city/ 21 hwy"
         '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Stencil", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(234, 437)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(85, 21)
+        Me.Label4.TabIndex = 6
+        Me.Label4.Text = "Mileage"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(255, 458)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(42, 24)
+        Me.Label5.TabIndex = 7
+        Me.Label5.Text = "N/A"
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.Image = Global.Cars.My.Resources.Resources.engine
+        Me.PictureBox4.Location = New System.Drawing.Point(391, 346)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(145, 74)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox4.TabIndex = 8
+        Me.PictureBox4.TabStop = False
+        '
         'PictureBox3
         '
         Me.PictureBox3.Image = Global.Cars.My.Resources.Resources.miles
-        Me.PictureBox3.Location = New System.Drawing.Point(203, 358)
+        Me.PictureBox3.Location = New System.Drawing.Point(204, 346)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(144, 74)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -78,7 +112,7 @@ Partial Class corvette
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.Cars.My.Resources.Resources.gaspump
-        Me.PictureBox2.Location = New System.Drawing.Point(49, 345)
+        Me.PictureBox2.Location = New System.Drawing.Point(50, 333)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(95, 100)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -95,25 +129,28 @@ Partial Class corvette
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
-        'Label4
+        'Label6
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Stencil", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(233, 449)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(85, 21)
-        Me.Label4.TabIndex = 6
-        Me.Label4.Text = "Mileage"
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Stencil", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(426, 437)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(74, 21)
+        Me.Label6.TabIndex = 9
+        Me.Label6.Text = "Engine"
         '
-        'Label5
+        'TextBox1
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(254, 470)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(42, 24)
-        Me.Label5.TabIndex = 7
-        Me.Label5.Text = "N/A"
+        Me.TextBox1.BackColor = System.Drawing.Color.White
+        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox1.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.Location = New System.Drawing.Point(342, 461)
+        Me.TextBox1.Multiline = True
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.ReadOnly = True
+        Me.TextBox1.Size = New System.Drawing.Size(242, 72)
+        Me.TextBox1.TabIndex = 10
+        Me.TextBox1.Text = "5.5L V8 DI HIGH-OUTPUT FLAT PLANE CRANK 8600 RPM REDLINE ENGINE"
         '
         'corvette
         '
@@ -121,6 +158,9 @@ Partial Class corvette
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1105, 550)
+        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.PictureBox3)
@@ -131,6 +171,7 @@ Partial Class corvette
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "corvette"
         Me.Text = "corvette"
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -147,4 +188,7 @@ Partial Class corvette
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
+    Friend WithEvents PictureBox4 As PictureBox
+    Friend WithEvents Label6 As Label
+    Friend WithEvents TextBox1 As TextBox
 End Class
