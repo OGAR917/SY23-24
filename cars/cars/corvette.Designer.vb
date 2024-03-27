@@ -35,6 +35,14 @@ Partial Class corvette
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.msrpL = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.aprTb = New System.Windows.Forms.TextBox()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.montlyPayTb = New System.Windows.Forms.TextBox()
+        Me.termTb = New System.Windows.Forms.TextBox()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -173,12 +181,96 @@ Partial Class corvette
         Me.msrpL.Size = New System.Drawing.Size(0, 33)
         Me.msrpL.TabIndex = 12
         '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Stencil", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(517, 28)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(353, 27)
+        Me.Label6.TabIndex = 13
+        Me.Label6.Text = "Calculate Monthly Payment"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Stencil", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(517, 81)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(73, 27)
+        Me.Label8.TabIndex = 16
+        Me.Label8.Text = "Term"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Stencil", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(527, 123)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(57, 27)
+        Me.Label9.TabIndex = 18
+        Me.Label9.Text = "APR"
+        '
+        'aprTb
+        '
+        Me.aprTb.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.aprTb.Location = New System.Drawing.Point(609, 123)
+        Me.aprTb.Name = "aprTb"
+        Me.aprTb.Size = New System.Drawing.Size(100, 31)
+        Me.aprTb.TabIndex = 19
+        '
+        'Button3
+        '
+        Me.Button3.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.Location = New System.Drawing.Point(745, 102)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(143, 32)
+        Me.Button3.TabIndex = 20
+        Me.Button3.Text = "Calculate"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Stencil", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(517, 171)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(115, 27)
+        Me.Label10.TabIndex = 21
+        Me.Label10.Text = "Payment"
+        '
+        'montlyPayTb
+        '
+        Me.montlyPayTb.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.montlyPayTb.Location = New System.Drawing.Point(638, 171)
+        Me.montlyPayTb.Multiline = True
+        Me.montlyPayTb.Name = "montlyPayTb"
+        Me.montlyPayTb.ReadOnly = True
+        Me.montlyPayTb.Size = New System.Drawing.Size(100, 27)
+        Me.montlyPayTb.TabIndex = 22
+        '
+        'termTb
+        '
+        Me.termTb.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.termTb.Location = New System.Drawing.Point(609, 81)
+        Me.termTb.Name = "termTb"
+        Me.termTb.Size = New System.Drawing.Size(100, 31)
+        Me.termTb.TabIndex = 23
+        '
         'corvette
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1105, 550)
+        Me.Controls.Add(Me.termTb)
+        Me.Controls.Add(Me.montlyPayTb)
+        Me.Controls.Add(Me.Label10)
+        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.aprTb)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.msrpL)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.TextBox1)
@@ -216,4 +308,12 @@ Partial Class corvette
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label7 As Label
     Friend WithEvents msrpL As Label
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label9 As Label
+    Friend WithEvents aprTb As TextBox
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Label10 As Label
+    Friend WithEvents montlyPayTb As TextBox
+    Friend WithEvents termTb As TextBox
 End Class
