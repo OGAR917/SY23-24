@@ -1,11 +1,10 @@
 ﻿Public Class Form2
     Dim count As Integer
-    Dim count6 As Integer
     Dim count2 As Integer
     Dim count3 As Integer
     Dim count4 As Integer
     Dim count5 As Integer
-
+    Dim count6 As Integer
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         count += 1
         TextBox2.Text = count
