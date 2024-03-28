@@ -43,7 +43,7 @@ Partial Class inventory
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Stencil", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(417, 9)
+        Me.Label1.Location = New System.Drawing.Point(433, 9)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(238, 47)
         Me.Label1.TabIndex = 0
@@ -104,7 +104,7 @@ Partial Class inventory
         Me.Button1.Font = New System.Drawing.Font("Stencil", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(225, 284)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(153, 26)
+        Me.Button1.Size = New System.Drawing.Size(154, 39)
         Me.Button1.TabIndex = 6
         Me.Button1.Text = "View Details"
         Me.Button1.UseVisualStyleBackColor = True
@@ -134,7 +134,7 @@ Partial Class inventory
         Me.Button2.Font = New System.Drawing.Font("Stencil", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Location = New System.Drawing.Point(476, 284)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(153, 26)
+        Me.Button2.Size = New System.Drawing.Size(160, 39)
         Me.Button2.TabIndex = 9
         Me.Button2.Text = "View Details"
         Me.Button2.UseVisualStyleBackColor = True
@@ -144,7 +144,7 @@ Partial Class inventory
         Me.Button3.Font = New System.Drawing.Font("Stencil", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.Location = New System.Drawing.Point(725, 284)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(153, 26)
+        Me.Button3.Size = New System.Drawing.Size(151, 39)
         Me.Button3.TabIndex = 10
         Me.Button3.Text = "View Details"
         Me.Button3.UseVisualStyleBackColor = True

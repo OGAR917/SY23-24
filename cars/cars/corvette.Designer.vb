@@ -43,6 +43,8 @@ Partial Class corvette
         Me.Label10 = New System.Windows.Forms.Label()
         Me.montlyPayTb = New System.Windows.Forms.TextBox()
         Me.termTb = New System.Windows.Forms.TextBox()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -257,12 +259,34 @@ Partial Class corvette
         Me.termTb.Size = New System.Drawing.Size(100, 31)
         Me.termTb.TabIndex = 23
         '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Stencil", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(691, 425)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(227, 33)
+        Me.Label12.TabIndex = 35
+        Me.Label12.Text = "(602) 999 - 9999"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Stencil", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(691, 462)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(293, 33)
+        Me.Label11.TabIndex = 34
+        Me.Label11.Text = "Call for more info"
+        '
         'corvette
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1105, 550)
+        Me.Controls.Add(Me.Label12)
+        Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.termTb)
         Me.Controls.Add(Me.montlyPayTb)
         Me.Controls.Add(Me.Label10)
@@ -316,4 +340,6 @@ Partial Class corvette
     Friend WithEvents Label10 As Label
     Friend WithEvents montlyPayTb As TextBox
     Friend WithEvents termTb As TextBox
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Label11 As Label
 End Class

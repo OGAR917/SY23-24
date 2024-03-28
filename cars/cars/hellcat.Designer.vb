@@ -43,6 +43,8 @@ Partial Class hellcat
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -52,7 +54,7 @@ Partial Class hellcat
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.Cars.My.Resources.Resources.hellcat
-        Me.PictureBox1.Location = New System.Drawing.Point(22, 21)
+        Me.PictureBox1.Location = New System.Drawing.Point(12, 12)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(452, 267)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -96,7 +98,7 @@ Partial Class hellcat
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(163, 24)
         Me.Label3.TabIndex = 16
-        Me.Label3.Text = "12 city/ 21 hwy"
+        Me.Label3.Text = "13 city/ 22 hwy"
         '
         'Label2
         '
@@ -159,7 +161,7 @@ Partial Class hellcat
         Me.TextBox1.ReadOnly = True
         Me.TextBox1.Size = New System.Drawing.Size(242, 72)
         Me.TextBox1.TabIndex = 22
-        Me.TextBox1.Text = "5.5L V8 DI HIGH-OUTPUT FLAT PLANE CRANK 8600 RPM REDLINE ENGINE"
+        Me.TextBox1.Text = "Intercooled Supercharger Premium Unleaded V-8"
         '
         'engine
         '
@@ -184,7 +186,7 @@ Partial Class hellcat
         'termTb
         '
         Me.termTb.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.termTb.Location = New System.Drawing.Point(601, 92)
+        Me.termTb.Location = New System.Drawing.Point(583, 73)
         Me.termTb.Name = "termTb"
         Me.termTb.Size = New System.Drawing.Size(100, 31)
         Me.termTb.TabIndex = 31
@@ -192,7 +194,7 @@ Partial Class hellcat
         'montlyPayTb
         '
         Me.montlyPayTb.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.montlyPayTb.Location = New System.Drawing.Point(639, 182)
+        Me.montlyPayTb.Location = New System.Drawing.Point(621, 163)
         Me.montlyPayTb.Multiline = True
         Me.montlyPayTb.Name = "montlyPayTb"
         Me.montlyPayTb.ReadOnly = True
@@ -203,7 +205,7 @@ Partial Class hellcat
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Stencil", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(509, 182)
+        Me.Label10.Location = New System.Drawing.Point(491, 163)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(115, 27)
         Me.Label10.TabIndex = 29
@@ -212,7 +214,7 @@ Partial Class hellcat
         'Button3
         '
         Me.Button3.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(737, 113)
+        Me.Button3.Location = New System.Drawing.Point(719, 94)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(143, 32)
         Me.Button3.TabIndex = 28
@@ -222,7 +224,7 @@ Partial Class hellcat
         'aprTb
         '
         Me.aprTb.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.aprTb.Location = New System.Drawing.Point(601, 134)
+        Me.aprTb.Location = New System.Drawing.Point(583, 115)
         Me.aprTb.Name = "aprTb"
         Me.aprTb.Size = New System.Drawing.Size(100, 31)
         Me.aprTb.TabIndex = 27
@@ -231,7 +233,7 @@ Partial Class hellcat
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Stencil", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(519, 134)
+        Me.Label9.Location = New System.Drawing.Point(501, 115)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(57, 27)
         Me.Label9.TabIndex = 26
@@ -241,7 +243,7 @@ Partial Class hellcat
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Stencil", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(509, 92)
+        Me.Label8.Location = New System.Drawing.Point(491, 73)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(73, 27)
         Me.Label8.TabIndex = 25
@@ -251,11 +253,31 @@ Partial Class hellcat
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Stencil", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(509, 39)
+        Me.Label6.Location = New System.Drawing.Point(491, 20)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(353, 27)
         Me.Label6.TabIndex = 24
         Me.Label6.Text = "Calculate Monthly Payment"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Stencil", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(674, 442)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(293, 33)
+        Me.Label11.TabIndex = 32
+        Me.Label11.Text = "Call for more info"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Stencil", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(674, 405)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(227, 33)
+        Me.Label12.TabIndex = 33
+        Me.Label12.Text = "(602) 999 - 9999"
         '
         'hellcat
         '
@@ -263,6 +285,8 @@ Partial Class hellcat
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1105, 550)
+        Me.Controls.Add(Me.Label12)
+        Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.termTb)
         Me.Controls.Add(Me.montlyPayTb)
         Me.Controls.Add(Me.Label10)
@@ -284,7 +308,6 @@ Partial Class hellcat
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Location = New System.Drawing.Point(19, 28)
         Me.Name = "hellcat"
         Me.Text = "hellcat"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -317,4 +340,6 @@ Partial Class hellcat
     Friend WithEvents Label9 As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents Label6 As Label
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Label12 As Label
 End Class
