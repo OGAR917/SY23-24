@@ -57,6 +57,12 @@ Partial Class Form2
         Me.Label13 = New System.Windows.Forms.Label()
         Me.TextBox8 = New System.Windows.Forms.TextBox()
         Me.Label14 = New System.Windows.Forms.Label()
+        Me.Button8 = New System.Windows.Forms.Button()
+        Me.Button9 = New System.Windows.Forms.Button()
+        Me.Button10 = New System.Windows.Forms.Button()
+        Me.Button11 = New System.Windows.Forms.Button()
+        Me.Button12 = New System.Windows.Forms.Button()
+        Me.Button13 = New System.Windows.Forms.Button()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -348,7 +354,7 @@ Partial Class Form2
         '
         'Button7
         '
-        Me.Button7.Location = New System.Drawing.Point(456, 387)
+        Me.Button7.Location = New System.Drawing.Point(456, 412)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(189, 43)
         Me.Button7.TabIndex = 31
@@ -358,7 +364,7 @@ Partial Class Form2
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(529, 433)
+        Me.Label13.Location = New System.Drawing.Point(530, 458)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(41, 16)
         Me.Label13.TabIndex = 32
@@ -366,7 +372,7 @@ Partial Class Form2
         '
         'TextBox8
         '
-        Me.TextBox8.Location = New System.Drawing.Point(500, 452)
+        Me.TextBox8.Location = New System.Drawing.Point(498, 477)
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.ReadOnly = True
         Me.TextBox8.Size = New System.Drawing.Size(100, 22)
@@ -375,12 +381,66 @@ Partial Class Form2
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(456, 477)
+        Me.Label14.Location = New System.Drawing.Point(456, 502)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(189, 16)
         Me.Label14.TabIndex = 34
         Me.Label14.Text = "Thank You For Your Purchase!"
         Me.Label14.Visible = False
+        '
+        'Button8
+        '
+        Me.Button8.Location = New System.Drawing.Point(70, 363)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(75, 23)
+        Me.Button8.TabIndex = 35
+        Me.Button8.Text = "Clear"
+        Me.Button8.UseVisualStyleBackColor = True
+        '
+        'Button9
+        '
+        Me.Button9.Location = New System.Drawing.Point(243, 363)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(75, 23)
+        Me.Button9.TabIndex = 36
+        Me.Button9.Text = "Clear"
+        Me.Button9.UseVisualStyleBackColor = True
+        '
+        'Button10
+        '
+        Me.Button10.Location = New System.Drawing.Point(420, 363)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(75, 23)
+        Me.Button10.TabIndex = 37
+        Me.Button10.Text = "Clear"
+        Me.Button10.UseVisualStyleBackColor = True
+        '
+        'Button11
+        '
+        Me.Button11.Location = New System.Drawing.Point(594, 363)
+        Me.Button11.Name = "Button11"
+        Me.Button11.Size = New System.Drawing.Size(75, 23)
+        Me.Button11.TabIndex = 38
+        Me.Button11.Text = "Clear"
+        Me.Button11.UseVisualStyleBackColor = True
+        '
+        'Button12
+        '
+        Me.Button12.Location = New System.Drawing.Point(786, 363)
+        Me.Button12.Name = "Button12"
+        Me.Button12.Size = New System.Drawing.Size(75, 23)
+        Me.Button12.TabIndex = 39
+        Me.Button12.Text = "Clear"
+        Me.Button12.UseVisualStyleBackColor = True
+        '
+        'Button13
+        '
+        Me.Button13.Location = New System.Drawing.Point(951, 363)
+        Me.Button13.Name = "Button13"
+        Me.Button13.Size = New System.Drawing.Size(75, 23)
+        Me.Button13.TabIndex = 40
+        Me.Button13.Text = "Clear"
+        Me.Button13.UseVisualStyleBackColor = True
         '
         'Form2
         '
@@ -388,6 +448,12 @@ Partial Class Form2
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1105, 550)
+        Me.Controls.Add(Me.Button13)
+        Me.Controls.Add(Me.Button12)
+        Me.Controls.Add(Me.Button11)
+        Me.Controls.Add(Me.Button10)
+        Me.Controls.Add(Me.Button9)
+        Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.TextBox8)
         Me.Controls.Add(Me.Label13)
@@ -471,4 +537,10 @@ Partial Class Form2
     Friend WithEvents Label13 As Label
     Friend WithEvents TextBox8 As TextBox
     Friend WithEvents Label14 As Label
+    Friend WithEvents Button8 As Button
+    Friend WithEvents Button9 As Button
+    Friend WithEvents Button10 As Button
+    Friend WithEvents Button11 As Button
+    Friend WithEvents Button12 As Button
+    Friend WithEvents Button13 As Button
 End Class
