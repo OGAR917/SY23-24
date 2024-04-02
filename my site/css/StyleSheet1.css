@@ -1,0 +1,32 @@
+﻿h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+
+h3 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+body {
+    background-color: navy;
+}
+
+a {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+}
+
+img {
+    width: 300px;
+    height: 250px;
+}
