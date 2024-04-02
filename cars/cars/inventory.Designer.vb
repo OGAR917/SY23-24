@@ -43,7 +43,7 @@ Partial Class inventory
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Stencil", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(433, 9)
+        Me.Label1.Location = New System.Drawing.Point(435, 9)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(238, 47)
         Me.Label1.TabIndex = 0
@@ -52,7 +52,7 @@ Partial Class inventory
         'PictureBox4
         '
         Me.PictureBox4.Image = Global.Cars.My.Resources.Resources.mustang
-        Me.PictureBox4.Location = New System.Drawing.Point(693, 132)
+        Me.PictureBox4.Location = New System.Drawing.Point(691, 132)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(222, 119)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -72,7 +72,7 @@ Partial Class inventory
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.Cars.My.Resources.Resources.corvette
-        Me.PictureBox2.Location = New System.Drawing.Point(190, 132)
+        Me.PictureBox2.Location = New System.Drawing.Point(191, 132)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(222, 119)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -93,7 +93,7 @@ Partial Class inventory
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Stencil", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(223, 254)
+        Me.Label2.Location = New System.Drawing.Point(224, 254)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(156, 27)
         Me.Label2.TabIndex = 5
@@ -102,9 +102,9 @@ Partial Class inventory
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Stencil", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(225, 284)
+        Me.Button1.Location = New System.Drawing.Point(227, 284)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(154, 39)
+        Me.Button1.Size = New System.Drawing.Size(151, 39)
         Me.Button1.TabIndex = 6
         Me.Button1.Text = "View Details"
         Me.Button1.UseVisualStyleBackColor = True
@@ -123,7 +123,7 @@ Partial Class inventory
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Stencil", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(720, 254)
+        Me.Label4.Location = New System.Drawing.Point(718, 254)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(169, 27)
         Me.Label4.TabIndex = 8
@@ -132,9 +132,9 @@ Partial Class inventory
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("Stencil", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(476, 284)
+        Me.Button2.Location = New System.Drawing.Point(478, 284)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(160, 39)
+        Me.Button2.Size = New System.Drawing.Size(151, 39)
         Me.Button2.TabIndex = 9
         Me.Button2.Text = "View Details"
         Me.Button2.UseVisualStyleBackColor = True
@@ -142,7 +142,7 @@ Partial Class inventory
         'Button3
         '
         Me.Button3.Font = New System.Drawing.Font("Stencil", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(725, 284)
+        Me.Button3.Location = New System.Drawing.Point(727, 284)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(151, 39)
         Me.Button3.TabIndex = 10
