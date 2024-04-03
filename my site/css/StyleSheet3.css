@@ -13,6 +13,7 @@ h2 {
 h3 {
     color: black;
     text-align: center;
+    font-size: 40px;
 }
 
 body {
@@ -38,4 +39,3 @@ d {
 p {
     color: black;
     font-size: 30px;
-}
