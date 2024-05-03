@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>astro</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="aq.webp" />
+    <None Remove="ar.jpg" />
+    <None Remove="cancer.png" />
+    <None Remove="cap.jpg" />
+    <None Remove="gemini.webp" />
+    <None Remove="leo.png" />
+    <None Remove="libra.webp" />
+    <None Remove="pisces.jpg" />
+    <None Remove="sag.jpg" />
+    <None Remove="scorpio.jfif" />
+    <None Remove="ta.png" />
+    <None Remove="virgo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Import Include="System.Windows" />
+    <Import Include="System.Windows.Controls" />
+    <Import Include="System.Windows.Data" />
+    <Import Include="System.Windows.Documents" />
+    <Import Include="System.Windows.Input" />
+    <Import Include="System.Windows.Media" />
+    <Import Include="System.Windows.Media.Imaging" />
+    <Import Include="System.Windows.Navigation" />
+    <Import Include="System.Windows.Shapes" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="aq.webp" />
+    <Resource Include="ar.jpg" />
+    <Resource Include="cancer.png" />
+    <Resource Include="cap.jpg" />
+    <Resource Include="gemini.webp" />
+    <Resource Include="leo.png" />
+    <Resource Include="libra.webp" />
+    <Resource Include="pisces.jpg" />
+    <Resource Include="sag.jpg" />
+    <Resource Include="scorpio.jfif" />
+    <Resource Include="ta.png" />
+    <Resource Include="virgo.png" />
+  </ItemGroup>
+
+</Project>

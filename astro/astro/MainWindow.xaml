@@ -1,0 +1,27 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:astro"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Calendar x:Name="cal1" HorizontalAlignment="Left" Margin="30,27,0,0" VerticalAlignment="Top"/>
+        <Button Content="Calculate" HorizontalAlignment="Left" Margin="226,170,0,0" VerticalAlignment="Top" Height="25" Width="73" Click="Button_Click"/>
+        <Label x:Name="label1" Content="Label" HorizontalAlignment="Left" Margin="304,170,0,0" VerticalAlignment="Top" Height="25" Width="119"/>
+        <Image x:Name="pic1" HorizontalAlignment="Left" Height="100" Margin="55,208,0,0" VerticalAlignment="Top" Width="100" Source="/ar.jpg" IsEnabled="False"/>
+        <Image x:Name="pic2" HorizontalAlignment="Left" Height="100" Margin="172,208,0,0" VerticalAlignment="Top" Width="100" Source="/ta.png" IsEnabled="False"/>
+        <Image x:Name="pic3" HorizontalAlignment="Left" Height="100" Margin="287,208,0,0" VerticalAlignment="Top" Width="100" Source="/gemini.webp" IsEnabled="False"/>
+        <Image x:Name="pic4" HorizontalAlignment="Left" Height="100" Margin="399,208,0,0" VerticalAlignment="Top" Width="100" Source="/cancer.png" IsEnabled="False"/>
+        <Image x:Name="pic5" HorizontalAlignment="Left" Height="100" Margin="508,208,0,0" VerticalAlignment="Top" Width="100" Source="/leo.png" IsEnabled="False"/>
+        <Image x:Name="pic6" HorizontalAlignment="Left" Height="100" Margin="615,208,0,0" VerticalAlignment="Top" Width="100" Source="/virgo.png" IsEnabled="False"/>
+        <Image x:Name="pic7" HorizontalAlignment="Left" Height="100" Margin="54,326,0,0" VerticalAlignment="Top" Width="100" Source="/libra.webp" IsEnabled="False"/>
+        <Image x:Name="pic8" HorizontalAlignment="Left" Height="100" Margin="172,326,0,0" VerticalAlignment="Top" Width="100" Source="/scorpio.jfif" IsEnabled="False"/>
+        <Image x:Name="pic9" HorizontalAlignment="Left" Height="100" Margin="286,326,0,0" VerticalAlignment="Top" Width="100" Source="/sag.jpg" IsEnabled="False"/>
+        <Image x:Name="pic10" HorizontalAlignment="Left" Height="100" Margin="399,326,0,0" VerticalAlignment="Top" Width="100" Source="/cap.jpg" IsEnabled="False"/>
+        <Image x:Name="pic11" HorizontalAlignment="Left" Height="100" Margin="508,326,0,0" VerticalAlignment="Top" Width="100" Source="/aq.webp" IsEnabled="False"/>
+        <Image x:Name="pic12" HorizontalAlignment="Left" Height="100" Margin="615,326,0,0" VerticalAlignment="Top" Width="100" Source="/pisces.jpg" IsEnabled="False"/>
+
+    </Grid>
+</Window>

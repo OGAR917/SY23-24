@@ -1,0 +1,28 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Currency_Converter"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="dollarTB" HorizontalAlignment="Left" Margin="76,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="138" Height="34" FontSize="14"/>
+        <Button Content="Euro (1.07)" HorizontalAlignment="Left" Margin="349,100,0,0" VerticalAlignment="Top" Height="29" Width="74" Click="Button_Click"/>
+        <Button Content="Yen (0.0065)" HorizontalAlignment="Left" Margin="444,100,0,0" VerticalAlignment="Top" Height="29" Width="94" Click="Button_Click_1"/>
+        <Button Content="Pound (1.24)" HorizontalAlignment="Left" Margin="565,100,0,0" VerticalAlignment="Top" Height="29" Width="106" Click="Button_Click_2"/>
+        <Button Content="Peso (0.059)" HorizontalAlignment="Left" Margin="349,191,0,0" VerticalAlignment="Top" Height="43" Width="74" Click="Button_Click_3"/>
+        <Button Content="Canadian Dollar (0.73)" HorizontalAlignment="Left" Margin="444,191,0,0" VerticalAlignment="Top" Height="43" Width="123" Click="Button_Click_4"/>
+        <Button Content="Yuan (0.14)" HorizontalAlignment="Left" Margin="587,191,0,0" VerticalAlignment="Top" Height="43" Width="73" RenderTransformOrigin="1.287,0.479" Click="Button_Click_5"/>
+        <Button Content="Clear" HorizontalAlignment="Left" Margin="76,170,0,0" VerticalAlignment="Top" FontSize="14" Height="30" Width="84" Click="Button_Click_6"/>
+        <Image HorizontalAlignment="Left" Height="61" Margin="349,39,0,0" VerticalAlignment="Top" Width="75" Source="/euro.webp"/>
+        <Image HorizontalAlignment="Left" Height="61" Margin="444,34,0,0" VerticalAlignment="Top" Width="75" Source="/yen.jpg"/>
+        <Image HorizontalAlignment="Left" Height="61" Margin="565,34,0,0" VerticalAlignment="Top" Width="75" Source="/pound.jpg"/>
+        <Image HorizontalAlignment="Left" Height="56" Margin="349,134,0,0" VerticalAlignment="Top" Width="75" Source="/peso.jpg"/>
+        <Image HorizontalAlignment="Left" Height="56" Margin="444,134,0,0" VerticalAlignment="Top" Width="75" Source="/dollar.jpg"/>
+        <Image HorizontalAlignment="Left" Height="56" Margin="584,135,0,0" VerticalAlignment="Top" Width="75" Source="/yuan.jpg"/>
+        <Label Content="US $" HorizontalAlignment="Left" Margin="28,62,0,0" VerticalAlignment="Top" FontSize="14" Width="46" RenderTransformOrigin="0.452,0.532"/>
+        <TextBox x:Name="convertedTB" HorizontalAlignment="Left" Margin="76,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="138" Height="34" FontSize="14"/>
+        <Label Content="Converted" HorizontalAlignment="Left" Margin="0,114,0,0" VerticalAlignment="Top" FontSize="14" Width="80" RenderTransformOrigin="0.452,0.532" Height="28"/>
+    </Grid>
+</Window>
